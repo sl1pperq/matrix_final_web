@@ -1,0 +1,47 @@
+body {
+    background-image: url("https://www.nic.ru/help/upload/image/unnamed%20(60)(1).jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.main-header {
+    color: green;
+    background: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sub-header {
+    color: white;
+    font-style: oblique;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.answer-input {
+    padding: 8px 16px 0;
+    width: 20%;
+    align-content: center;
+    height: 70px;
+    border-radius: 12px;
+    border: none;
+    font-size: 30px;
+    text-overflow: ellipsis;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background: darkgreen;
+}
+
+.green-button {
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 60px;
+    width: 500px;
+    height: 100px;
+    color: darkgreen;
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+}

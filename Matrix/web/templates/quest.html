@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Матрица</title>
+    <link href="../static/style.css" rel="stylesheet" type="text/css"/>
+    <script src="../static/script.js" type="text/javascript"></script>
+</head>
+<body>
+
+<h1 class="main-header">Добро пожаловать в матрицу!</h1>
+
+<div class="solve-block">
+    {% for e in equations %}
+    <h1 class="sub-header">{{ e }}</h1>
+    {% endfor %}
+</div>
+
+<h1 class="main-header">Введи свои решения через пробел</h1>
+
+<center>
+    <input id="answer" class="answer-input">
+    <p>
+        <button onclick="checkAnswer()" class="green-button">ПОСМОТРЕТЬ</button>
+    </p>
+</center>
+
+</body>
+</html>
